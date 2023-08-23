@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+  color: #444;
+}
+
+input {
+  border-radius: 8px;
+  border: solid 1px #ddd;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #bdd;
+  border: 0;
+  padding: 6px 16px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border: none;
+  padding: 5px 0;
+  table-layout: fixed;
+}
+
+thead {
+  background-color: #c6ffe2;
+  text-align: center;
+}
+
+tbody {
+  background-color: #ffe;
+}
+
+th,
+td {
+  padding: 5px 0;
+  line-height: 1.5;
+}
+
+th {
+}
+
+th span {
+  margin-left: 10px;
+}
